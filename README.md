@@ -1,17 +1,16 @@
 # ktktelecom-call-prefixes-calculation
-Постановка задачи: исходные данные - диапазоны номеров с указанием оператора. Необходимо было по данным диапазонам составить кратчайший набор
-call-префиксов, которые, тем не менее, однозначно определяют данного оператора.
+Problem description: initial data - ranges of numbers with an indication of the operator. It was necessary to compile the shortest set of call-prefixes based on these ranges, which, nevertheless, uniquely identify this operator.
 
-Например, есть записи вида:  
-79785500000 79785509999 Оператор Х  
-79785510000 79785519999 Оператор Х  
-79785520000 79785529999 Оператор Х  
-79785530000 79785539999 Оператор Х  
-79785540000 79785549999 Оператор Х  
-79785550000 79785559999 Оператор Х  
-79785560000 79785569999 Оператор Х  
-79785570000 79785579999 Оператор Х  
-79785580000 79785589999 Оператор Х  
-79785590000 79785599999 Оператор Х  
+For example, we have records like:  
+79785500000 79785509999 Operator Х  
+79785510000 79785519999 Operator Х  
+79785520000 79785529999 Operator Х  
+79785530000 79785539999 Operator Х  
+79785540000 79785549999 Operator Х  
+79785550000 79785559999 Operator Х  
+79785560000 79785569999 Operator Х  
+79785570000 79785579999 Operator Х  
+79785580000 79785589999 Operator Х  
+79785590000 79785599999 Operator Х  
 
-Соответственно, здесь кратчайшим префиксом для оператора Х будет 797855
+Therefore, the shortest prefix for the operator X will be 797855
